@@ -1,0 +1,214 @@
+## GOOGLE ALTERNATIVES DETAILS ##
+
+      Being Private and Secure and not only degoogleing but also move away from big four data driven companies.
+
+ 1. OS: 
+           From most secure to least:
+
+     PC :  
+            1.Linux : for basic user : Fedora 
+                      for advanced user: Qubeos , Whoonix or Tails.
+
+            2.Mac
+            
+            3.Windows 
+         
+             One can go for linux or mac , but i think still linux is go to os , in linux one can use qubeos,whoonix,tails or fedora.
+             But Please avoid windows it's privacy nightmare.
+
+      Mobile: 1.Custom os : provided buy samsung,lg or xiomi least secure .
+              2.Stock android and vanilla android : provided by google pixel, oneplus and nokia etc.
+              there is debate between 3rd and 4th you can use either one of them but i still think
+              3.Use ios since it is enclosed in apple ecosystem and apple has the full control over manufactures and it is only used by apple , it is a good choice.
+              4.Use only two custom roms either GrapheneOs or CalyOs.
+    
+
+ 1.1 Browser : 
+        Pc : For Anonymous web surfing use tor browser
+             For Personal account use Mozilla firefox with hardened settings refer htttp://privacytools.io
+
+        Mobile : For Anonymous web surfing use tor browser for android or ios
+                 For Personal account use bromite 
+
+
+
+ 1.2. Search Engine : 1.SearX For Linux
+                    2. Duck duck go for both linux windows and mac
+                    3. Qwant ( if you dont want a us based browser like duck duck go)
+  
+                   
+               
+ 3. App-Store : F-Droid for android and Alt for ios.
+    Google Play Store Client : Auora Store
+    
+
+ 4. Youtube Alternative : NewPipe For Android from F-Droid
+                          https://www.invidio.us/ for web browser
+
+ 5. Maps : Maps.Me --- Android
+           OpenStreet Map
+
+ 6. Dictionary and translate  : Linguee and deepl
+
+ 7. Password Manager : Keepass For Desktop
+                       Keepassxd For Android
+
+ 8. News: rss : Feedly and reddit without creating an account
+
+ 9. Slides/Docs/Sheets : LibreOffice Offline For Desktop 
+                         LibreOffice For Android.
+
+ 10. Calender : Etar For Android
+
+ 11. Music : Spotify 
+ 
+ 12. Gmail : 1. Protonmail
+             2. Tatanota     Both Provides Calender and contact sync.
+
+ 13. Replace the following google apps from Simple apps in fdroid:  
+              Simple Contacts 
+              Simple dialer 
+              Simple calender
+              Simple clock
+              Simple gallery
+                 
+
+
+ 14. Drive : 1. Nextcloud self hosted instance (best)
+             2. Tresorit
+             3. Mega
+
+ 15. Photos : 1.Piwigo
+              2. Lyche
+
+ 16. Tasks: 1. Joplin
+            2. Standard Notes
+            3. Evernote
+
+ 17. Messeges and  hangouts : Signal
+
+ 18. Blogs : medium or subscribed through rss
+
+ 19. Use Temporary emails :       1.33mail
+                                  2.Tempmail
+                                  3.Gorillamail
+              
+         Temporary Phone Numbers: 1.MySudo https://mysudo.com/
+                                  2.Hushed https://app.hushed.com/signup 
+
+ 20. Podcast : 1. Pocketcast
+               2. Atennapod 
+               3. Spotify
+
+ 21. Add block for android : Blockada
+ 
+ 22. Networking Blocking for particular apps : Netguard
+
+ 23. Vpn : 1. Protonvpn (purchased) for both pc and mobile
+           2. Mullvad
+                   
+
+ 24. PasteBin: privatebin : for secure code host.
+
+ 25. file archiver replacement of rar : for windows and linux : peazip
+
+ 26. realtime file editeing : Etharpad.
+
+ 27. for code without telemetry : vscodium or turn off settings in vscode editor.
+
+ 28. Open source router firm : OpenWrt
+
+ 29. Remove metadata from images : use Mat tool for windows and linux
+
+ 30. Two factor autenticator (2fa) : try to use password manager thats stre locally and are open source 
+                          1. andotp or aegis for android
+                          2. Tofu Authenticator for ios
+ 
+                                   
+
+ For Windows : 
+                    1. Try to use purchased windows with license key rather than cracked version as modded/cracked version maybe less secure and addition code 
+                        must be writeen on it .
+
+                    2. Use Bitlocker for all drives in windows , in certain edditions of windows bitlocker is not for free then use Vercrypt and backup the key file.
+                        https://www.veracrypt.fr/en/Home.html
+                        https://youtu.be/C25VWAGl7Tw
+
+                    3. Remove windows pre installed bloatware
+                        https://www.youtube.com/results?search_query=how+to+remove+bloatware+from+windows+10
+                        Use Debloater script https://github.com/Sycnex/Windows10Debloater  and follow the instruction given above in the video
+                        WUB  https://www.sordum.org/downloads/?st-windows-update-blocker to disable windows update and later you can enable it as shown in the above
+                        mentioned youtube video.
+
+                    4. Always disable telemetry settings and dont allow apps to use permisions that it should'nt .
+                        https://www.youtube.com/results?search_query=how+to+turn+off+windows+10+telemetry+settings
+                        also use OOSU10 tool https://www.oo-software.com/en/shutup10 as mentioned in the above video
+                         
+
+                    5. Use Windows spyblocker like W10 Privacy
+                        https://www.w10privacy.de/english-home/
+                        https://www.youtube.com/watch?v=q6sVjYLIooo
+
+                    6. Set Bios user password and secure boot enable if possible.
+
+                    7. Use Bleach Bit : BleachBit guards your privacy. 
+                        With BleachBit you can free cache, delete cookies, clear Internet history, shred temporary files, delete logs, and discard junk.
+                        https://www.bleachbit.org/
+                        https://www.youtube.com/watch?v=ifkO3z_LCVw
+
+                    8. Spoof your macaddress :
+                        https://sguru.org/spoof-mac-address-windows-10/
+                       
+                    9. Try not to use Windows :)
+ 
+
+ For Android 10 and above : 
+
+                1. Turn of telemetry seetings off
+                2. Use Random mac address -->  network and internet --> tap on gear icon beside wifi --> privacy - use random mav address
+                3. use private dns 
+                    go to settings --> network and internet --> PrivateDns --> fiil it with 1dot1dot1dot1.cloudflare-dns.com
+                4. Double check all privacy seetings dont provide apps permissions that it doesnot need and also dont use two much apps only once you need.
+                    turn sensors off this will not effect wifi,gps or bluetooh , will diable sensors like gyroscope , proximity etc.
+                5. Turn locations off everytime
+                6. Use custom roms like Graphene and Calyx ( calyx provides google play services support through microg).
+                7. Use Strong Password not pin and big no to any kind of biometrics.
+
+                
+                               
+                                ----------Important -----------
+
+        1. Takeout everything from google account 
+             go to google acccount services and myactivity.google.com and delete everthing , check gmail and try to delete as much email as u can
+             unscribe from emails , search like verify and signup you will see a lot of email unsubscribe from them and try to falseify your details before deletion
+             finally delete google account and see all the account you have trough this site (https://justdeleteme.xyz/#)
+
+        2. This guide is not only about google but all data hungry companies , so try to stay away as nuch as we can from
+              Google , Facebook , Amazon and Microsoft ( delete all of these accounts ).
+
+        3. Use Progressive web app ( ex : if u want to shop from amazon dont have to install its app on your phone just add the webpage to your phone homescreen
+            surf and search from it .
+
+        4. for laptops : use web camera cover
+                         use cable locks for laptops
+                         also use privacy glasses.
+                         https://www.reflectacles.com/#home
+
+           for mobile : use privacy screen protector
+
+        5. Use voip services which are paid but secure 
+           monero private digital currency https://www.getmonero.org/
+           https://localbitcoins.com/ buy and sell bitcoins 
+           also try to use bitcoins and digital currency.
+          
+
+        6.  Use strong passwords have an array of passwords for different account and also use a password manager and 2fa.
+
+        7. Use your mobile number for specific puposes for specific numbers. 
+ 
+          Also check  Privacytools.io for privacy related recommended download.
+
+
+
+             
+  

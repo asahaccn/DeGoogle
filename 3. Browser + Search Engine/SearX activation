@@ -1,0 +1,19 @@
+
+
+
+sudo su
+cd /usr/local
+chown searx:searx -R /usr/local/searx
+su - searx
+cd /usr/local/searx
+virtualenv searx-ve
+. ./searx-ve/bin/activate
+./manage.sh update_packages
+sed -i -e "s/ultrasecretkey/`openssl rand -hex 16`/g" searx/settings.yml
+python searx/webapp.py
+Go to http://localhost:8888
+
+To Close SearX 
+ Ctrl+c
+ exit
+ exit

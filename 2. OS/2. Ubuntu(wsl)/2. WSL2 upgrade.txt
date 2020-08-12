@@ -1,0 +1,2 @@
+wsl --set-version Ubuntu 2
+wsl -l -v

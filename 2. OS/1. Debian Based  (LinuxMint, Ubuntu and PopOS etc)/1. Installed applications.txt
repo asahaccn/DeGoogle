@@ -1,0 +1,161 @@
+                                                 
+
+
+ Basic: works for and debian based os like Ubuntu,LinuxMint and PopOs.// Prefer Linux mint for more security
+                                                search Sub Reddit r/LinuxMint , r/ubuntu  for help and r/unixporn for customisation.
+
+   Sudo apt-get update
+   Sudo apt-get upgrade
+   Sudo apt-get neofetch [ to show sytem tats ]
+   Sudo gedit ~/.bash_profile [ paste in to bash to loadup as default in terminal
+                                Using your favorite text editor, add a neofetch with  to run to the bottom of the file ~/.bash_profile ]
+
+   hostnamectl set-hostname new-name [ to change the hostname in ubuntulsb_release -a ]
+
+   sudo su [ sudo user with password ]
+   sudo - arpan [sudo user with no password ]
+   su - l arpan [ switch from sudo user to normal user ]
+
+   Current Temparatue:
+   curl wttr.in/kolkata [ In Details ]
+   curl wttr.in/Kolkata?0 [ In Brief ]
+
+   Current  Ubuntu Version Being Used
+   lsb_release -a
+   current version 20.4 LTS.
+
+   apt-get install sl
+   for animated train
+
+
+1.  sudo apt-get install vi
+    sudo apt-get install gedit
+
+
+3. Java Installation
+   jdk installation: sudo apt-get install java-11-openjdk-devel ( for jdk)
+
+   application needs support for GUI or audio, you will likely want to install full JRE.
+   sudo apt-get install java-11-openjdk
+
+   sudo apt-get install icedtea-web( implementation of java eb start ) // optional
+ 
+   
+4.  gcc and g++ 
+    sudo apt-get install gcc
+    sudo apt-get install g++
+
+5.  Powertop
+
+    sudo apt-get install powertop
+    sudo powertop [ displays all options ]
+    sudo systemctl start powertop.service [ start powertop service ]
+    sudo systemctl enable powertop.service [ start powertop on bootup ]
+
+6. Git
+
+    Installation :
+    dnf -y update
+    dnf -y install git
+    git --version
+
+    To prevent any commit errors, it’s a good idea to set up your user for git (use the –global option to specify global configuration settings).
+    git config --global user.name "sampleuser"
+    git config --global user.email "sampleuser@example.com"
+ 
+    You can verify the configuration changes by viewing the .gitconfig:
+    git config --list
+    
+    
+    That should produce output similar to the following:
+    [root@host ~]# git config --list
+    user.name=sampleuser
+    user.email=sampleuser@example.com
+
+
+7. Vscodium / vscode
+
+     wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | sudo apt-key add -
+     echo 'deb https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/repos/debs/ vscodium main' | sudo tee --append /etc/apt/sources.list.d/vscodium.list
+     sudo apt update
+     sudo apt install codium
+
+   Microsoft Fonts 
+
+    "mscorefonts" fedora [search on browser]
+    yum install curl cabextract xorg-x11-font-utils fontconfig
+    rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
+
+    Mat tool for meta data remover
+    installation guide : https://www.youtube.com/watch?v=5J_tA65cNbI
+
+
+    Use Bleach Bit : BleachBit guards your privacy. 
+                       With BleachBit you can free cache, delete cookies, clear Internet history, shred temporary files, delete logs, and discard junk.
+                       https://www.bleachbit.org/
+
+ Also install the following extensions (optional personal preference)
+
+   8.gnome tweek tool
+   9.gs connect + kde connect
+   10.caffeine
+   11.google earth wallpaper ( only needed in ubuntu )
+   12.lock keys extension from gnome shell extension
+   13.dash do dock ( only used in pop os )
+   14.maximize and minimize
+   15.automatathemely
+   16.thunderbird
+   17.duplicati for cloud file backup.
+   18.etharpad and private bin
+   19.tor
+   20.nvidia from software store
+   21.tray icons
+   22.gnome tweak tool
+   23.tor
+   24.keepass
+   25.window tileing.
+
+
+       https://www.youtube.com/watch?v=LHj2ulIm7AQ ( things to do after installing pop os ).
+  
+
+
+Extra :
+
+        Peazip , Privatebin and timeshift important applications that can be installed.
+
+	To Unzip Folder:
+	After installing the unzip utility, if you want to extract to a particular destination folder, you can use:
+
+        unzip file.zip -d destination_folder
+
+        If the source and destination directories are the same, you can simply do:
+
+        unzip file.zip
+
+
+	To See Current Port Running 
+	sudo netstat -lnp
+
+	To Kill The Process here 3000 is port number.
+	sudo kill $(sudo lsof -t -i:3000).
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
