@@ -23,7 +23,7 @@
 
 2.     curl wttr.in/kolkata [ In Details }
        curl wttr.in/Kolkata?0 [ In Brief ]
-
+       also install cmatrix
 
 3. Enable Rpm Fusion  
 

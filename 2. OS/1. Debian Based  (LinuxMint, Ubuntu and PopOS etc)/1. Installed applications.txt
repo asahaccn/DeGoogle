@@ -26,6 +26,7 @@
 
    apt-get install sl
    for animated train
+   also install c matrix
 
 
 1.  sudo apt-get install vi
