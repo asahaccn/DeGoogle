@@ -26,9 +26,12 @@ Basic: Installation with respect to Wsl
    apt-get install sl
    for animated train
 
+   also install cmatrix.
+
 
 1.  sudo apt-get install vi
     sudo apt-get install gedit
+    
 
 
 3. Java Installation
