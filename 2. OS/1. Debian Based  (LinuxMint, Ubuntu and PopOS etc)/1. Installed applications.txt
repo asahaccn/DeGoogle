@@ -27,7 +27,14 @@
    apt-get install sl
    for animated train
    also install c matrix
+   apt-get install cmatrix
 
+
+    Customise the linux terminal 
+
+      https://medium.com/@alex285/get-powerlevel9k-the-most-cool-linux-shell-ever-1c38516b0caa
+
+      https://github.com/ohmybash/oh-my-bash
 
 1.  sudo apt-get install vi
     sudo apt-get install gedit
@@ -74,7 +81,7 @@
     user.email=sampleuser@example.com
 
 
-7. Vscodium / vscode
+7. Vscodium
 
      wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | sudo apt-key add -
      echo 'deb https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/repos/debs/ vscodium main' | sudo tee --append /etc/apt/sources.list.d/vscodium.list
@@ -94,6 +101,68 @@
     Use Bleach Bit : BleachBit guards your privacy. 
                        With BleachBit you can free cache, delete cookies, clear Internet history, shred temporary files, delete logs, and discard junk.
                        https://www.bleachbit.org/
+
+
+      Vs code installation 
+
+
+   First, update the packages index and install the dependencies by typing:
+
+    sudo apt update
+    sudo apt install software-properties-common apt-transport-https wget
+
+    Next, import the Microsoft GPG key using the following wget command :
+
+    wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+
+    And enable the Visual Studio Code repository by typing:
+
+    sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+
+    Once the apt repository is enabled , install the latest version of Visual Studio Code with:
+
+    sudo apt update
+    sudo apt install code
+
+
+    How To Install Firefox Developer Edition.
+
+    The Following steps are giving below.
+
+    sudo apt remove firefox
+    cd ~/Downloads
+    tar -xvf firefox-*.tar.bz2
+    execute the following command as root user
+    mv /home/username/Downloads/firefox /opt
+    ln -s /opt/firefox/firefox /usr/local/bin/firefox
+    touch /usr/share/applications/firefox-developer.desktop
+    vim /usr/share/applications/firefox-developer.desktop
+
+    Contents of the /usr/share/applications/firefox-developer.desktop file
+
+    [Desktop Entry]
+
+    Name=Firefox Developer
+
+    GenericName=Firefox Developer Edition
+
+    Exec=/usr/local/bin/firefox
+
+    Terminal=false
+
+    Icon=/opt/firefox/browser/chrome/icons/default/default48.png
+
+    Type=Application
+
+    Categories=Application;Network;X-Developer;
+
+    Comment=Firefox Developer Edition Web Browser
+
+    Save the edit with Ctrl + O and exit with Ctrl + X. Then, update the permissions of the file with chmod.
+
+    chmod +x /usr/share/applications/firefox-developer.desktop
+
+
 
  Also install the following extensions (optional personal preference)
 
@@ -134,27 +203,28 @@ Extra :
 
         unzip file.zip
 
+        Extract and install .tar file 
+
+
+        tar xvf filename.extension
+        cd file created
+       //if install guide is given follow that or else 
+       ./configure 
+        make
+        make install
+
+
+       Shell Commands :
+
+       cat /etc/shells
+       echo $SHELL
+       chsh -s /bin/bash  
 
 	To See Current Port Running 
 	sudo netstat -lnp
 
 	To Kill The Process here 3000 is port number.
 	sudo kill $(sudo lsof -t -i:3000).
-
-
-
-       
-
-
-
-
-
-
-
-
-
-
-
 
 
 

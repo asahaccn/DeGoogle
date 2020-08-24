@@ -23,7 +23,13 @@
 
 2.     curl wttr.in/kolkata [ In Details }
        curl wttr.in/Kolkata?0 [ In Brief ]
-       also install cmatrix
+       
+
+       apt-get install sl
+       for animated train
+       also install c matrix
+       apt-get install cmatrix
+       
 
 3. Enable Rpm Fusion  
 
@@ -88,7 +94,7 @@
                  install sublimetheme.xml file stored in cloud
      
 
-12. Vscodium or vscode
+12. Vscodium 
 
     for guide and help only https://github.com/VSCodium/vscodium/releases
 
@@ -103,6 +109,67 @@
     Theme: signed dark pro theme.
 
     Extension given in seperate vscode extensions.txt file.
+
+
+   
+      Vs code installation 
+
+
+   First, update the packages index and install the dependencies by typing:
+
+    sudo apt update
+    sudo apt install software-properties-common apt-transport-https wget
+
+    Next, import the Microsoft GPG key using the following wget command :
+
+    wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+
+    And enable the Visual Studio Code repository by typing:
+
+    sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+
+    Once the apt repository is enabled , install the latest version of Visual Studio Code with:
+
+    sudo apt update
+    sudo apt install code
+
+
+    How To Install Firefox Developer Edition.
+
+    The Following steps are giving below.
+
+    sudo apt remove firefox
+    cd ~/Downloads
+    tar -xvf firefox-*.tar.bz2
+    execute the following command as root user
+    mv /home/username/Downloads/firefox /opt
+    ln -s /opt/firefox/firefox /usr/local/bin/firefox
+    touch /usr/share/applications/firefox-developer.desktop
+    vim /usr/share/applications/firefox-developer.desktop
+
+    Contents of the /usr/share/applications/firefox-developer.desktop file
+
+    [Desktop Entry]
+
+    Name=Firefox Developer
+
+    GenericName=Firefox Developer Edition
+
+    Exec=/usr/local/bin/firefox
+
+    Terminal=false
+
+    Icon=/opt/firefox/browser/chrome/icons/default/default48.png
+
+    Type=Application
+
+    Categories=Application;Network;X-Developer;
+
+    Comment=Firefox Developer Edition Web Browser
+
+    Save the edit with Ctrl + O and exit with Ctrl + X. Then, update the permissions of the file with chmod.
+
+    chmod +x /usr/share/applications/firefox-developer.desktop
 
 
 13. Gnome Tweak theme
@@ -216,7 +283,20 @@
 
 	To Kill The Process here 3000 is port number.
 	sudo kill $(sudo lsof -t -i:3000)
+    
+     tar xvf filename.extension
+        cd file created
+       //if install guide is given follow that or else 
+       ./configure 
+        make
+        make install
 
+
+       Shell Commands :
+
+       cat /etc/shells
+       echo $SHELL
+       chsh -s /bin/bash  
 
 
         System update fedora 31 to higher version

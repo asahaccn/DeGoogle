@@ -26,8 +26,8 @@ Basic: Installation with respect to Wsl
    apt-get install sl
    for animated train
 
-   also install cmatrix.
-
+   also install cmatrix
+   apt-get install cmatrix
 
 1.  sudo apt-get install vi
     sudo apt-get install gedit
@@ -82,25 +82,84 @@ Basic: Installation with respect to Wsl
      sudo apt update
      sudo apt install codium
 
+    Vs code installation 
+
+
+   First, update the packages index and install the dependencies by typing:
+
+    sudo apt update
+    sudo apt install software-properties-common apt-transport-https wget
+
+    Next, import the Microsoft GPG key using the following wget command :
+
+    wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+
+    And enable the Visual Studio Code repository by typing:
+
+    sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+
+    Once the apt repository is enabled , install the latest version of Visual Studio Code with:
+
+    sudo apt update
+    sudo apt install code
+
+
+    How To Install Firefox Developer Edition.
+
+    The Following steps are giving below.
+
+    sudo apt remove firefox
+    cd ~/Downloads
+    tar -xvf firefox-*.tar.bz2
+    execute the following command as root user
+    mv /home/username/Downloads/firefox /opt
+    ln -s /opt/firefox/firefox /usr/local/bin/firefox
+    touch /usr/share/applications/firefox-developer.desktop
+    vim /usr/share/applications/firefox-developer.desktop
+
+    Contents of the /usr/share/applications/firefox-developer.desktop file
+
+    [Desktop Entry]
+
+    Name=Firefox Developer
+
+    GenericName=Firefox Developer Edition
+
+    Exec=/usr/local/bin/firefox
+
+    Terminal=false
+
+    Icon=/opt/firefox/browser/chrome/icons/default/default48.png
+
+    Type=Application
+
+    Categories=Application;Network;X-Developer;
+
+    Comment=Firefox Developer Edition Web Browser
+
+    Save the edit with Ctrl + O and exit with Ctrl + X. Then, update the permissions of the file with chmod.
+
+    chmod +x /usr/share/applications/firefox-developer.desktop
+
 
 
   
-How To Run Gedit Through Wsl
+    How To Run Gedit Through Wsl
 
-Step 1- Download and Install this Windows X Server https://sourceforge.net/projects/vcxsrv/
+    Step 1- Download and Install this Windows X Server https://sourceforge.net/projects/vcxsrv/
 
-Step 2- Open XLaunch
+    Step 2- Open XLaunch
 
-Step 3- Select " Full screen " option
+    Step 3- Select " Full screen " option
 
-Step 4- Choose " Start no client " option
+    Step 4- Choose " Start no client " option
 
-Step 5- Simply do next and finish
+    Step 5- Simply do next and finish
 
-Step 6- Open terminal and type :
+    Step 6- Open terminal and type :
 
-export DISPLAY=0:0
-gedit filename
+    export DISPLAY=0:0
+    gedit filename
 
 
 
@@ -116,6 +175,21 @@ gedit filename
         If the source and destination directories are the same, you can simply do:
 
         unzip file.zip
+
+
+     tar xvf filename.extension
+        cd file created
+       //if install guide is given follow that or else 
+       ./configure 
+        make
+        make install
+
+
+       Shell Commands :
+
+       cat /etc/shells
+       echo $SHELL
+       chsh -s /bin/bash  
 
 
 	To See Current Port Running 
